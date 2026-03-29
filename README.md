@@ -1,195 +1,137 @@
-<!-- ================= ULTRA HEADER ================= -->
+# 🚀 Basic
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,100:0f2027&height=300&section=header&text=VEDANT%20KAIPIL&fontSize=55&fontColor=00F7FF&animation=twinkling&desc=AI%20SYSTEMS%20%7C%20DEVOPS%20%7C%20BUILDER&descAlignY=60"/>
-</p>
+> A collection of fundamental programming concepts and beginner-friendly code examples designed to build strong logic and coding foundations.
 
-<!-- TERMINAL INTRO -->
+---
 
-```bash
-$ whoami
-> Vedant Kaipil
+## 📌 Overview
 
-$ role
-> Developer → AI Systems Engineer → DevOps Architect
+The **Basic** repository contains simple and essential programs that help in understanding core programming concepts such as:
 
-$ status
-> Building. Learning. Scaling.
+* Variables & Data Types
+* Conditional Statements
+* Loops
+* Functions
+* Error Handling
 
-$ mission
-> Create intelligent systems that solve real-world problems.
+This repository is ideal for beginners and also serves as a quick revision resource.
+
+---
+
+## 🧠 Concepts Covered
+
+* 🔢 Input / Output
+* 🔁 Loops (for, while)
+* 🔀 Conditional Statements (if-else)
+* 🧩 Functions
+* ⚠️ Exception Handling
+
+---
+
+## 💻 Sample Code
+
+### 🔹 Example 1: Simple Calculator (Python)
+
+```python id="code1"
+def calculator():
+    a = int(input("Enter first number: "))
+    b = int(input("Enter second number: "))
+    
+    print("1. Add\n2. Subtract\n3. Multiply\n4. Divide")
+    choice = int(input("Choose operation: "))
+    
+    if choice == 1:
+        print("Result:", a + b)
+    elif choice == 2:
+        print("Result:", a - b)
+    elif choice == 3:
+        print("Result:", a * b)
+    elif choice == 4:
+        print("Result:", a / b)
+    else:
+        print("Invalid choice")
+
+calculator()
 ```
 
 ---
 
-<!-- TYPING ANIMATION -->
+### 🔹 Example 2: Fibonacci Series
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&width=800&lines=Designing+Scalable+Systems;Building+AI+Applications;Exploring+LLMs+%26+RAG;Learning+DevOps+Deeply;Turning+Ideas+Into+Reality" />
-</p>
+```python id="code2"
+def fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        print(a, end=" ")
+        a, b = b, a + b
 
----
-
-# 🧠 SYSTEM ARCHITECTURE
-
-```id="arch001"
-CORE:
-- Logic-first engineering mindset
-- System-level thinking
-- Real-world problem solving
-
-STACK EVOLUTION:
-Code → Systems → AI → Scale → Infrastructure
+fibonacci(10)
 ```
 
 ---
 
-# ⚡ LIVE OPERATIONS
+### 🔹 Example 3: Exception Handling
 
-```id="ops002"
-[ACTIVE BUILD]
-→ Python Automation Systems
-→ LLM + RAG Pipelines
-→ Backend Logic & APIs
-
-[IN PROGRESS]
-→ Docker + Containerization
-→ AWS Deployment
-→ CI/CD Pipelines
-
-[OPTIMIZING]
-→ Performance
-→ Scalability
-→ Clean Architecture
+```python id="code3"
+try:
+    num = int(input("Enter number: "))
+    print(10 / num)
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+except ValueError:
+    print("Invalid input")
 ```
 
 ---
 
-# 🧰 TECH ECOSYSTEM
+## 📂 Project Structure
 
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=python,java,c,cpp,linux,docker,aws,git,github,vscode&theme=dark" />
-
-</p>
-
----
-
-# 🧪 AI LAB
-
-```id="ai003"
-→ Retrieval-Augmented Generation (RAG)
-→ Vector Databases
-→ LangChain Workflows
-→ AI-powered Tools
-→ Automation Systems
+```id="code4"
+basic/
+│── calculator.py
+│── fibonacci.py
+│── exception_handling.py
+│── README.md
 ```
 
 ---
 
-# ⚙️ DEVOPS PIPELINE VISION
+## ⚙️ How to Run
 
-```id="devops004"
-Code → Git → Build → Test → Docker → Deploy → Monitor → Scale
+```bash id="code5"
+git clone https://github.com/your-username/basic.git
+cd basic
+python filename.py
 ```
 
 ---
 
-# 📊 SYSTEM METRICS
+## 🚀 Purpose
 
-<p align="center">
+This repository is created to:
 
-<img src="https://github-readme-stats.vercel.app/api?username=Vedant021004&theme=tokyonight&hide_border=true&show_icons=true"/>
-<img src="https://nirzak-streak-stats.vercel.app/?user=Vedant021004&theme=tokyonight&hide_border=true"/>
-
-</p>
-
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vedant021004&theme=tokyonight&hide_border=true&layout=compact"/>
-
-</p>
+* Strengthen programming fundamentals
+* Practice logic building
+* Serve as a base for advanced development
 
 ---
 
-# 🧬 ENGINEERING DNA
+## 🔥 Future Improvements
 
-```id="dna005"
-- Build practical systems, not just projects
-- Learn by shipping real solutions
-- Break problems into scalable components
-- Focus on clarity over complexity
-- Iterate fast, improve continuously
-```
+* Add more problem-solving examples
+* Include data structures
+* Add mini-projects
 
 ---
 
-# 🏆 ACHIEVEMENT GRID
+## 👨‍💻 Author
 
-<p align="center">
+**Vedant Kaipil**
 
-<img src="https://github-profile-trophy.vercel.app/?username=Vedant021004&theme=matrix&no-frame=true&no-bg=true"/>
-
-</p>
+* GitHub: https://github.com/your-username
 
 ---
 
-# 🚀 FEATURED PROJECT ZONE (ADD YOUR BEST PROJECTS)
+## ⭐ Support
 
-```id="projects006"
-→ Smart Student Management System
-→ Python Automation Tools
-→ RAG-based AI Application (Coming Soon)
-→ DevOps Pipeline Project (Upcoming)
-```
-
----
-
-# 🌐 CONNECT NODE
-
-<p align="center">
-
-<a href="mailto:vedantkp79@gmail.com">
-  <img src="https://img.shields.io/badge/EMAIL-000000?style=for-the-badge&logo=gmail&logoColor=00F7FF"/>
-</a>
-
-<a href="https://instagram.com/V3D">
-  <img src="https://img.shields.io/badge/INSTAGRAM-000000?style=for-the-badge&logo=instagram&logoColor=00F7FF"/>
-</a>
-
-</p>
-
----
-
-# 🧠 CORE STATEMENT
-
-> I don’t just write code.
-> I design systems, build intelligence, and engineer solutions that scale.
-
----
-
-# 🔮 FUTURE BLUEPRINT
-
-```id="future007"
-Phase 1 → Strong Backend Systems
-Phase 2 → AI + LLM Mastery
-Phase 3 → DevOps & Cloud Deployment
-Phase 4 → Scalable AI Products
-Phase 5 → Open Source Impact
-```
-
----
-
-# 👁️ TRAFFIC MONITOR
-
-<p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=Vedant021004&icon=6&color=12"/>
-</p>
-
----
-
-<!-- FOOTER -->
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:000000&height=120&section=footer"/>
-</p>
+If you find this helpful, give it a ⭐ and share with others!
