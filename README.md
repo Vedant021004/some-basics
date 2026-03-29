@@ -1,43 +1,59 @@
+<!-- 🔥 Animated Header -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=BASIC%20REPOSITORY&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
+</p>
+
+<!-- ⚡ Typing Animation -->
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&center=true&vCenter=true&width=600&lines=Learning+Programming+Basics;Building+Strong+Logic;From+Beginner+to+Developer;Practice+%7C+Code+%7C+Repeat" />
+</p>
+
+---
+
 # 🚀 Basic
 
-> A collection of fundamental programming concepts and beginner-friendly code examples designed to build strong logic and coding foundations.
+> A structured collection of beginner-friendly programs to build strong programming fundamentals.
 
 ---
 
-## 📌 Overview
+## 🧠 About This Repository
 
-The **Basic** repository contains simple and essential programs that help in understanding core programming concepts such as:
+```id="about001"
+Focus: Core Programming Concepts
+Level: Beginner → Intermediate
+Goal: Strong Logic Building
+```
 
-* Variables & Data Types
-* Conditional Statements
-* Loops
-* Functions
-* Error Handling
+This repository is designed to help you:
 
-This repository is ideal for beginners and also serves as a quick revision resource.
+* Understand basic programming concepts
+* Practice logic building
+* Prepare for advanced development
 
 ---
 
-## 🧠 Concepts Covered
+## 🧰 Concepts Covered
 
 * 🔢 Input / Output
 * 🔁 Loops (for, while)
-* 🔀 Conditional Statements (if-else)
+* 🔀 Conditional Statements
 * 🧩 Functions
 * ⚠️ Exception Handling
 
 ---
 
-## 💻 Sample Code
+## 💻 Code Examples
 
-### 🔹 Example 1: Simple Calculator (Python)
+### 🔹 Calculator Program
 
 ```python id="code1"
 def calculator():
     a = int(input("Enter first number: "))
     b = int(input("Enter second number: "))
     
-    print("1. Add\n2. Subtract\n3. Multiply\n4. Divide")
+    print("1.Add  2.Subtract  3.Multiply  4.Divide")
     choice = int(input("Choose operation: "))
     
     if choice == 1:
@@ -56,7 +72,7 @@ calculator()
 
 ---
 
-### 🔹 Example 2: Fibonacci Series
+### 🔹 Fibonacci Series
 
 ```python id="code2"
 def fibonacci(n):
@@ -70,7 +86,7 @@ fibonacci(10)
 
 ---
 
-### 🔹 Example 3: Exception Handling
+### 🔹 Exception Handling
 
 ```python id="code3"
 try:
@@ -96,7 +112,7 @@ basic/
 
 ---
 
-## ⚙️ How to Run
+## ⚙️ Run Locally
 
 ```bash id="code5"
 git clone https://github.com/your-username/basic.git
@@ -106,21 +122,11 @@ python filename.py
 
 ---
 
-## 🚀 Purpose
+## 🚀 Learning Path
 
-This repository is created to:
-
-* Strengthen programming fundamentals
-* Practice logic building
-* Serve as a base for advanced development
-
----
-
-## 🔥 Future Improvements
-
-* Add more problem-solving examples
-* Include data structures
-* Add mini-projects
+```id="path001"
+Start → Basics → Logic → Practice → Build Projects → Advance
+```
 
 ---
 
@@ -128,10 +134,16 @@ This repository is created to:
 
 **Vedant Kaipil**
 
-* GitHub: https://github.com/your-username
-
 ---
 
 ## ⭐ Support
 
-If you find this helpful, give it a ⭐ and share with others!
+If this repo helps you, give it a ⭐ and keep building 🚀
+
+---
+
+<!-- 🔥 Animated Footer -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=120&section=footer"/>
+</p>
